@@ -32,6 +32,7 @@ namespace WpfApp3
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Ping ping = new Ping();
+            MessageBox.Show("123");
             MessageBox.Show(test1.Text);
             //PingReply.
             PingReply reply = ping.Send(test1.Text, 1000);
